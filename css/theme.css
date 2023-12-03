@@ -613,7 +613,7 @@ li {
 	font-size: 0.8rem;
 	position: relative;
 	top: -1px;
-	color: #444;
+	color: #083258;
 }
 
 #header .header-nav-features.header-nav-features-light .header-nav-top-icon,
@@ -885,7 +885,7 @@ li {
 }
 
 #header .header-nav-features .header-nav-features-user .header-nav-features-toggle {
-	color: #444;
+	color: #083258;
 	font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -1853,7 +1853,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav-main.header-nav-main-dark nav > ul > li > a {
-		color: #444;
+		color: #083258;
 	}
 
 	#header .header-nav-main.header-nav-main-slide nav > ul > li > a {
@@ -1899,7 +1899,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		text-transform: uppercase;
 		position: relative;
 		background: transparent !important;
-		color: #444;
+		color: #083258;
 		padding: 0 .9rem;
 		margin: 1px 0 0;
 		min-height: 60px;
@@ -2232,7 +2232,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
-		color: #444;
+		color: #083258;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
@@ -2346,11 +2346,11 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav.header-nav-line.header-nav-bottom-line.header-nav-bottom-line-active-text-dark nav > ul > li:hover > a {
-		color: #444 !important;
+		color: #083258 !important;
 	}
 
 	#header .header-nav.header-nav-line.header-nav-bottom-line.header-nav-bottom-line-active-text-dark nav > ul:not(:hover) li > a.active {
-		color: #444 !important;
+		color: #083258 !important;
 	}
 
 	#header .header-nav.header-nav-no-space-dropdown nav > ul > li.dropdown.open > .dropdown-menu, #header .header-nav.header-nav-no-space-dropdown nav > ul > li.dropdown.accessibility-open > .dropdown-menu, #header .header-nav.header-nav-no-space-dropdown nav > ul > li.dropdown:hover > .dropdown-menu {
@@ -3823,7 +3823,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links nav > ul > li > a, html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links nav > ul > li:hover > a {
 		position: relative;
 		background: transparent !important;
-		color: #444 !important;
+		color: #083258 !important;
 		padding: 0 .9rem;
 		margin: 1px 0 0;
 		min-height: 70px;
@@ -3848,7 +3848,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links nav > ul li a {
-		color: #444;
+		color: #083258;
 		font-size: 12px;
 	}
 

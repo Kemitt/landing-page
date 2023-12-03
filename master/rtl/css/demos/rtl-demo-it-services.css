@@ -187,19 +187,19 @@ body {
 	}
 
 	#header .header-nav-main nav > ul > li > a.active {
-		color: #444 !important;
+		color: #083258 !important;
 	}
 
 	#header .header-nav-main nav > ul > li > a.active:before {
-		background-color: #444 !important;
+		background-color: #083258 !important;
 	}
 
 	#header .header-nav-main nav > ul > li.active > a, #header .header-nav-main nav > ul > li:hover > a, #header .header-nav-main nav > ul > li:focus > a {
-		color: #444 !important;
+		color: #083258 !important;
 	}
 
 	#header .header-nav-main nav > ul > li.active > a:before, #header .header-nav-main nav > ul > li:hover > a:before, #header .header-nav-main nav > ul > li:focus > a:before {
-		background-color: #444 !important;
+		background-color: #083258 !important;
 	}
 
 	#header .header-nav-main nav > ul > li:first-child {
