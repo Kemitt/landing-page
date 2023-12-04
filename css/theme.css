@@ -14266,6 +14266,11 @@ html.gap-outside #header:not(.side-header) .header-container:after {
 	html.gap-outside #header:not(.side-header) .header-nav-main:before {
 		width: calc(100vw - 50px);
 	}
+	.text-3-4,
+	.text-3-5 {
+		font-size: .8em !important;
+	}
+
 }
 
 html.gap-outside .sticky-wrapper {
