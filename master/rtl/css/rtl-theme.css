@@ -14273,7 +14273,13 @@ html.boxed .footer-reveal {
 	html.boxed {
 		background: none !important;
 	}
+
+	.cursor-outer,
+	.cursor-inner {
+		display: none !important;
+	}
 }
+
 
 /* Boxed - Skin */
 html.boxed .body {

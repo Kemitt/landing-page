@@ -2786,6 +2786,10 @@ window.theme.fn = {
 	}
 
 	PluginCursorEffect.prototype = {
+		// isMobileDevice: function(){
+		// 	return window.matchMedia("(max-width: 768px)").matches;
+		// },
+
 		initialize: function($el, opts) {
 			if ($el.data(instanceName)) {
 				return this;
