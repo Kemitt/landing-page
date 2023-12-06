@@ -2688,19 +2688,19 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .btn-primary {
-	--hover: var(--primary--200);
+	--hover: var(--primary-300);
 	background-color: var(--primary);
 	border-color: var(--primary) var(--primary) var(--primary-300);
 	color: var(--primary-inverse);
 }
 
 .btn-primary:hover, .btn-primary.hover {
-	border-color: var(--primary--200) var(--primary--200) var(--primary);
+	border-color: var(--primary-300) var(--primary-300) var(--primary);
 	color: var(--primary-inverse);
 }
 
 .btn-primary:hover:not(.bg-transparent), .btn-primary.hover:not(.bg-transparent) {
-	background-color: var(--primary--200);
+	background-color: var(--primary-300);
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -16703,7 +16703,7 @@ html.boxed .slider-container {
 	line-height: 28px;
 	width: 28px;
 	text-align: center;
-	color: var(--dark--200) !important;
+	color: var(--dark) !important;
 	text-decoration: none;
 	font-size: 12.8px;
 	font-size: 0.8rem;

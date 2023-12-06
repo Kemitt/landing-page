@@ -1166,7 +1166,7 @@ li {
 }
 
 #header .header-btn-collapse-nav {
-	background: var(--grey-500);
+	background: var(--dark);
 	color: var(--light);
 	display: none;
 	float: right;
@@ -4931,7 +4931,7 @@ html[dir="rtl"] #header .tip-light:before {
 
 /* Header Button Collapse - Skin */
 #header .header-btn-collapse-nav {
-	background: var(--primary);
+	background: var(--dark);
 }
 
 /* Header Nav Main - Skin */
@@ -5503,19 +5503,19 @@ html[dir="rtl"] #header .tip-light:before {
 /* Header Nav Main Mobile - Skin */
 @media (max-width: 991px) {
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a {
-		color: var(--primary);
+		color: var(--dark);
 	}
 
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a:active {
-		color: var(--primary);
+		color: var(--dark);
 	}
 
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active {
-		background: var(--primary);
+		background: var(--dark);
 	}
 
 	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active:focus, #header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a.active:hover {
-		background: var(--primary);
+		background: var(--dark);
 	}
 
 	#header .header-nav-main.header-nav-main-mobile-dark nav > ul > li > a.active {

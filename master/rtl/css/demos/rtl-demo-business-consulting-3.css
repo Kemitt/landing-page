@@ -368,7 +368,7 @@
 }
 
 .custom-header-top-nav-background:before {
-	background: var(--primary);
+	background: var(--dark);
 }
 
 .custom-header-top-nav-background:after {

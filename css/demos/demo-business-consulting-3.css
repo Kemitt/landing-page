@@ -366,11 +366,11 @@
 }
 
 .custom-header-top-nav-background:before {
-		background: var(--primary);
+		background: var(--dark);
 }
 
 .custom-header-top-nav-background:after {
-		background: var(--primary--300);
+		background: #53708a;
 }
 
 /*
