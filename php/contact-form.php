@@ -23,7 +23,7 @@ require 'php-mailer/src/Exception.php';
 $email = 'info@eqtaralawla.com';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
-$debug = 0;
+$debug = 2;
 
 // If contact form don't has the subject input change the value of subject here
 $subject = ( isset($_POST['subject']) ) ? $_POST['subject'] : 'Define subject in php/contact-form.php line 29';
@@ -56,13 +56,13 @@ try {
 
 	// Step 2 (Optional) - If you don't receive the email, try to configure the parameters below:
 
-	// $mail->IsSMTP();                                         // Set mailer to use SMTP
-	// $mail->Host = 'smtpout.secureserver.net'; 				       // Specify main and backup server
-	// $mail->SMTPAuth = true;                                  // Enable SMTP authentication
-	// $mail->Username = 'info@eqtaralawla.com';                   // SMTP username
-	// $mail->Password = 'aya13579';                              // SMTP password
-	// $mail->SMTPSecure = 'tls';                               // Enable encryption, 'ssl' also accepted
-	// $mail->Port = 587;   								       // TCP port to connect to
+	$mail->IsSMTP();                                         // Set mailer to use SMTP
+	$mail->Host = 'ns1.digitalocean.com'; 		       // Specify main and backup server
+	$mail->SMTPAuth = true;                                  // Enable SMTP authentication
+	$mail->Username = 'info@eqtaralawla.com';                   // SMTP username
+	$mail->Password = 'sa#87654321';                              // SMTP password
+	$mail->SMTPSecure = 'tls';                               // Enable encryption, 'ssl' also accepted
+	$mail->Port = 587;   								       // TCP port to connect to
 
 	$mail->AddAddress($email);	 						       // Add another recipient
 
