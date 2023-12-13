@@ -19,6 +19,7 @@ require 'php-mailer/src/PHPMailer.php';
 require 'php-mailer/src/SMTP.php';
 require 'php-mailer/src/Exception.php';
 
+
 // Step 1 - Enter your email address below.
 $email = 'info@eqtaralawla.com';
 
@@ -57,12 +58,12 @@ try {
 	// Step 2 (Optional) - If you don't receive the email, try to configure the parameters below:
 
 	$mail->IsSMTP();                                         // Set mailer to use SMTP
-	$mail->Host = 'smtpout.secureserver.net'; 		       // Specify main and backup server
+	$mail->Host = 'smtpout.asia.secureserver.net'; 		       // Specify main and backup server
 	$mail->SMTPAuth = true;                                  // Enable SMTP authentication
 	$mail->Username = 'info@eqtaralawla.com';                   // SMTP username
 	$mail->Password = 'sa#87654321';                              // SMTP password
 	$mail->SMTPSecure = 'tls';                               // Enable encryption, 'ssl' also accepted
-	$mail->Port = 465;   								       // TCP port to connect to
+	$mail->Port = 587;  								       // TCP port to connect to
 
 	$mail->AddAddress($email);	 						       // Add another recipient
 
@@ -85,11 +86,6 @@ try {
 
 	$mail->Subject = $subject;
 	$mail->Body    = $message;
-
-	// Step 3 - If you don't want to attach any files, remove that code below
-	if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
-		$mail->AddAttachment($_FILES['attachment']['tmp_name'], $_FILES['attachment']['name']);
-	}
 
 	$mail->Send();
 	$arrResult = array ('response'=>'success');
