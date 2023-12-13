@@ -1,9 +1,4 @@
 <?php
-/*
-Name: 			Contact Form
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	10.0.0
-*/
 
 namespace PortoContactForm;
 
@@ -21,15 +16,15 @@ require 'php-mailer/src/Exception.php';
 
 
 // Step 1 - Enter your email address below.
-$email = 'info@eqtaralawla.com';
+$email = 'info@eqtaralawla.com'
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
 $debug = 2;
 
 // If contact form don't has the subject input change the value of subject here
-$subject = ( isset($_POST['subject']) ) ? $_POST['subject'] : 'Define subject in php/contact-form.php line 29';
+$subject = 'General Inquiry';
 
-$message = '';
+$message = "" ;
 
 foreach($_POST as $label => $value) {
 	$label = ucwords($label);
@@ -99,3 +94,5 @@ try {
 if ($debug == 0) {
 	echo json_encode($arrResult);
 }
+
+?>
