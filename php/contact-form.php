@@ -1,7 +1,5 @@
 <?php
 
-namespace PortoContactForm;
-
 session_cache_limiter('nocache');
 header('Expires: ' . gmdate('r', 0));
 
