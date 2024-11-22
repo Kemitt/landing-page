@@ -2,6 +2,24 @@
 		font-size: 0.6em;
 }
 
+.logo-right {
+	top: 16%;
+	transform: translateY(-50%);
+	right: 100px;
+    /* max-width: 150px; */
+}
+
+/* Adjust responsiveness */
+@media (max-width: 768px) {
+    .text-md-end {
+        text-align: center !important;
+    }
+
+    .logo-right {
+        margin-top: 20px; /* Add spacing for small screens */
+    }
+}
+
 @media (min-width: 1200px) {
 		.custom-big-font-size-1 {
 				font-size: 6.9rem !important;
@@ -42,9 +60,9 @@
 */
 @media (min-width: 992px) {
 		.custom-text-background {
-				background-repeat: no-repeat;
+				/* background-repeat: no-repeat; */
 				background-size: 100%;
-				background-position: 20% 30%;
+				background-position: 100%;
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 		}

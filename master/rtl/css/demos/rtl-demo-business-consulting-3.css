@@ -42,9 +42,9 @@
 */
 @media (min-width: 992px) {
 	.custom-text-background {
-		background-repeat: no-repeat;
+		/* background-repeat: no-repeat; */
 		background-size: 100%;
-		background-position: 20% 30%;
+		background-position: 100%;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
