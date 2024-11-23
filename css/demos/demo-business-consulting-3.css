@@ -2,11 +2,16 @@
 		font-size: 0.6em;
 }
 
-.logo-right {
-	top: 16%;
-	transform: translateY(-50%);
-	right: 100px;
-    /* max-width: 150px; */
+@media (max-width: 768px) {
+	.mobile-logo {
+		position: static !important;
+		margin-top: 20px;
+		display: block !important;
+	}
+
+	.custom-big-font-size-1 {
+		text-align: center;
+	}
 }
 
 /* Adjust responsiveness */
@@ -401,4 +406,26 @@
 
 .custom-accordion-style-1 > .card:hover .card-header a.collapsed {
 		color: var(--primary) !important;
+}
+
+.custom-big-font-size-1 {
+    font-size: 2.2rem;
+    text-align: left;
+}
+
+.logo-mobile {
+    max-width: 282px;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .custom-big-font-size-1 {
+        font-size: 2rem;
+    }
+
+    .logo-mobile {
+        margin-top: 20px;
+        /* max-width: 120px; */
+    }
 }

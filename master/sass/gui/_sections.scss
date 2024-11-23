@@ -440,7 +440,7 @@ section {
 
 			&.shape-divider-bottom {
 				top: auto;
-				bottom: 0;
+				bottom: -75px;
 			}
 			&.shape-divider-reverse-y {
 			    transform: rotateY(180deg);
