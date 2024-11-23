@@ -15812,7 +15812,7 @@ section.section.section-front {
 
 .section.section-with-shape-divider .shape-divider.shape-divider-bottom {
 	top: auto;
-	bottom: 0;
+	bottom: -75px;
 }
 
 .section.section-with-shape-divider .shape-divider.shape-divider-reverse-y {
